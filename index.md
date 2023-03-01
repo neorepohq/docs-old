@@ -3,7 +3,7 @@ title: Neorepo
 description: A production-ready saas starter kit
 ---
 
-<Image src="https://demo.neorepo.com/logo.png" alt="neorepo" height="100" />
+<!-- <Image src="https://demo.neorepo.com/logo.png" alt="neorepo" height="100" /> -->
 
 Neorepo is a boilerplate that you can use for an unlimited number of projects. Whether you're trying to learn how to structure your own app or want to rapidly spin up a number of features, it sets you up with a powerful set of features.
 
