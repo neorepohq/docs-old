@@ -4,6 +4,5 @@
   "sidebar": [
     ["Home", "/"],
     ["Another Page", "/another-page"]
-  ],
-  "logo": "/assets/logo.png"
+  ]
 }
