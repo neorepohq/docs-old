@@ -1,6 +1,6 @@
 {
-  "name": "docs.page",
-  "theme": "#36B9B9",
+  "name": "neorepo",
+  "theme": "#000000",
   "sidebar": [
     ["Home", "/"],
     ["Another Page", "/another-page"]
