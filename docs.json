@@ -1,8 +1,51 @@
 {
   "name": "neorepo",
   "theme": "#000000",
+  "anchors": [
+    { "title": "Homepage", "icon": "house", "link": "https://neorepo.com" },
+    {
+      "title": "Discord",
+      "icon": "discord",
+      "link": "https://discord.gg/SxASaD9m6Q"
+    }
+  ],
   "sidebar": [
-    ["Home", "/"],
-    ["Another Page", "/another-page"]
+    [
+      "Getting Started",
+      [
+        ["Overview", "/"],
+        ["Getting Started", "/getting-started"],
+        ["Configuration", "/configuration"],
+        ["Writing Content", "/writing-content"]
+      ]
+    ],
+    [
+      "Components",
+      [
+        ["Accordion", "/components/accordion"],
+        ["Code Blocks", "/components/code-blocks"],
+        ["Callouts", "/components/callouts"],
+        ["Headings", "/components/headings"],
+        ["Tweet", "/components/tweet"],
+        ["Tabs", "/components/tabs"],
+        ["Images", "/components/images"],
+        ["YouTube", "/components/youtube"],
+        ["Vimeo", "/components/vimeo"],
+        ["Zapp!", "/components/zapp"],
+        ["Custom Components", "/components/custom"]
+      ]
+    ],
+    [
+      "Advanced",
+      [
+        ["Frontmatter", "/frontmatter"],
+        ["Previews", "/previews"],
+        ["Search", "/search"],
+        ["Custom Domains", "/custom-domains"],
+        ["Locales", "/locales"],
+        ["GitHub Bot", "/github-bot"]
+      ]
+    ],
+    ["Misc.", [["Contributing", "/contributing"]]]
   ]
 }
