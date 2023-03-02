@@ -3,60 +3,32 @@ title: Getting Started
 description: Get started with your new project on Neorepo
 ---
 
-# Environment
+# Environment Variables
 
 In this step, we'll set up your environment.
 
-## Clone the repository
+## Vercel Environment Variables
 
-```bash
-git clone https://github.com/neorepohq/neorepo.git
-```
+Neorepo uses [Vercel environment variables](https://vercel.com/docs/environment-variables) to store secrets. Use the Vercel project you created in the previous step to set up your environment variables.
 
-## Install dependencies
+1. Open the Vercel project you created in the previous step
+2. Click the "Environment Variables" tab
+3. Add the following environment variables:
 
-```bash
-yarn
-```
+| Name | Value |
+| ---- | ----- |
 
-## Start the development server
-
-```bash
-yarn dev
-```
-
-## Push to GitHub
-
-Create a new repository on GitHub and push your project to it.
-
-```bash
-git add .
-git commit -m "Initial commit"
-git push
-```
-
-## Deploy to Vercel
-
-Neorepo is designed to be deployed to Vercel.
-
-First, create a new project on Vercel. Then, link your GitHub repository to Vercel. Finally, deploy your project.
-
-To deploy your project, use the Vercel CLI:
-
-To install the Vercel CLI, run the following command:
-
-```bash
-npm i -g vercel
-```
-
-Use the following command to login to Vercel:
-
-```bash
-vercel login
-```
-
-Link your project to Vercel:
-
-```bash
-vercel link
-```
+| `NEXTAUTH_SECRET` | |
+| `NEXTAUTH_URL` | |
+| `DATABASE_URL` | |
+| `STRIPE_SECRET_KEY` | |
+| `STRIPE_WEBHOOK_SECRET` | |
+| `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` | |
+| `GOOGLE_CLIENT_SECRET` | |
+| `GOOGLE_CLIENT_ID` | |
+| `EMAIL_SMTP_HOST` | |
+| `EMAIL_SMTP_PORT` | |
+| `EMAIL_SMTP_USER` | |
+| `EMAIL_SMTP_PASSWORD` | |
+| `NEXT_PUBLIC_POSTHOG_KEY` | |
+| `NEXT_PUBLIC_HOST` | |
