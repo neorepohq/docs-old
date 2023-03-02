@@ -15,17 +15,18 @@ Neorepo uses [Vercel environment variables](https://vercel.com/docs/environment-
 2. Click the "Environment Variables" tab
 3. Add the following environment variables:
 
-|`DATABASE_URL`| |
-|`NEXTAUTH_SECRET` | |
-|`NEXTAUTH_URL`| |
-|`STRIPE_SECRET_KEY`| |
-|`STRIPE_WEBHOOK_SECRET`| |
-|`NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY`| |
-|`GOOGLE_CLIENT_SECRET`| |
-|`GOOGLE_CLIENT_ID`| |
-|`EMAIL_SMTP_HOST`| |
-|`EMAIL_SMTP_PORT`| |
-|`EMAIL_SMTP_USER`| |
-|`EMAIL_SMTP_PASSWORD`| |
-|`NEXT_PUBLIC_POSTHOG_KEY`| |
-|`NEXT_PUBLIC_HOST` | |
+| Variables                            |
+| ------------------------------------ |
+| `DATABASE_URL`                       |
+| `NEXTAUTH_SECRET`                    |
+| `STRIPE_SECRET_KEY`                  |
+| `STRIPE_WEBHOOK_SECRET`              |
+| `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` |
+| `GOOGLE_CLIENT_SECRET`               |
+| `GOOGLE_CLIENT_ID`                   |
+| `EMAIL_SMTP_HOST`                    |
+| `EMAIL_SMTP_PORT`                    |
+| `EMAIL_SMTP_USER`                    |
+| `EMAIL_SMTP_PASSWORD`                |
+| `NEXT_PUBLIC_POSTHOG_KEY`            |
+| `NEXT_PUBLIC_HOST`                   |
