@@ -13,14 +13,14 @@ Neorepo uses [Planetscale](https://planetscale.com) to store data. Planetscale i
 
 ### Create a database
 
-1. Open the [Planetscale dashboard](https://console.planetscale.com)
+1. Open the [Planetscale dashboard](https://app.planetscale.com)
 2. Click the "Create Database" button
 3. Enter a name for your database
 4. Click the "Create Database" button
 
 ### Get your database URL
 
-1. Open the [Planetscale dashboard](https://console.planetscale.com)
+1. Open the [Planetscale dashboard](https://app.planetscale.com)
 2. Click the database you created in the previous step
 3. Click the "Connect" tab
 4. Copy the database URL
