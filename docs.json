@@ -16,34 +16,18 @@
         ["Overview", "/"],
         ["Getting Started", "/getting-started"],
         ["Environment Variables", "/environment"],
-        ["Writing Content", "/writing-content"]
+        ["Run App Locally", "/run-app"]
       ]
     ],
     [
-      "Components",
+      "Features",
       [
-        ["Accordion", "/components/accordion"],
-        ["Code Blocks", "/components/code-blocks"],
-        ["Callouts", "/components/callouts"],
-        ["Headings", "/components/headings"],
-        ["Tweet", "/components/tweet"],
-        ["Tabs", "/components/tabs"],
-        ["Images", "/components/images"],
-        ["YouTube", "/components/youtube"],
-        ["Vimeo", "/components/vimeo"],
-        ["Zapp!", "/components/zapp"],
-        ["Custom Components", "/components/custom"]
-      ]
-    ],
-    [
-      "Advanced",
-      [
-        ["Frontmatter", "/frontmatter"],
-        ["Previews", "/previews"],
-        ["Search", "/search"],
-        ["Custom Domains", "/custom-domains"],
-        ["Locales", "/locales"],
-        ["GitHub Bot", "/github-bot"]
+        ["Auth", "/features/auth"],
+        ["Emails", "/features/emails"],
+        ["Onboarding", "/features/onboarding"],
+        ["Org Management", "/features/organization"],
+        ["Payments", "/features/payments"],
+        ["Analytics", "/features/analytics"]
       ]
     ],
     ["Misc.", [["Contributing", "/contributing"]]]
