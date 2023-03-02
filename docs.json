@@ -15,7 +15,7 @@
       [
         ["Overview", "/"],
         ["Getting Started", "/getting-started"],
-        ["Configuration", "/configuration"],
+        ["Environment Variables", "/environment"],
         ["Writing Content", "/writing-content"]
       ]
     ],
