@@ -1,0 +1,45 @@
+---
+title: Database
+description: Set up your database
+---
+
+# Database
+
+In this step, we'll set up your database.
+
+## Planetscale
+
+Neorepo uses [Planetscale](https://planetscale.com) to store data. Planetscale is a fully managed database service that's built on top of MySQL. It's designed to be a drop-in replacement for MySQL, so you can use the same tools you're already familiar with.
+
+### Create a database
+
+1. Open the [Planetscale dashboard](https://console.planetscale.com)
+2. Click the "Create Database" button
+3. Enter a name for your database
+4. Click the "Create Database" button
+
+### Get your database URL
+
+1. Open the [Planetscale dashboard](https://console.planetscale.com)
+2. Click the database you created in the previous step
+3. Click the "Connect" tab
+4. Copy the database URL
+
+### Set up your environment variables
+
+1. Open the Vercel project you created in the previous step
+2. Click the "Environment Variables" tab
+3. Add the following environment variables:
+
+| `DATABASE_URL` | `mysql://<username>:<password>@<host>:<port>/<database>` |
+
+### Create the database schema with Prisma
+
+1. Open your terminal
+2. Run the following command:
+
+```bash
+yarn prisma db push
+```
+
+This command will create the Prisma database schema for you and push it to your database.

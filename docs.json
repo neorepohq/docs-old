@@ -22,6 +22,7 @@
     [
       "Features",
       [
+        ["Database", "/features/database"],
         ["Auth", "/features/auth"],
         ["Emails", "/features/emails"],
         ["Onboarding", "/features/onboarding"],

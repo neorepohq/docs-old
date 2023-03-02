@@ -15,9 +15,9 @@ Neorepo uses [Vercel environment variables](https://vercel.com/docs/environment-
 2. Click the "Environment Variables" tab
 3. Add the following environment variables:
 
-| `NEXTAUTH_SECRET` | ``|
-|`NEXTAUTH_URL`| |
 |`DATABASE_URL`| |
+|`NEXTAUTH_SECRET` | |
+|`NEXTAUTH_URL`| |
 |`STRIPE_SECRET_KEY`| |
 |`STRIPE_WEBHOOK_SECRET`| |
 |`NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY`| |
